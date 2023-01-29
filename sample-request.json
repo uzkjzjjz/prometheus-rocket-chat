@@ -1,12 +1,12 @@
 {
   "status": "firing",
-  "externalURL": "http://alertmanager.example.com",
+  "externalURL": "http://na-qa.com.na-qa.com",
   "alerts": [
     {
       "labels": {
         "alertname": "http probe 2xx",
         "instance": "node-exporter:9100",
-        "custom": "yiehaa"
+        "custom": "Fahad"
       },
       "annotations": {
         "summary": "node-exporter:9100 - Not OK",
@@ -20,7 +20,7 @@
         "instance": "ecm-brewer"
       },
       "annotations": {
-        "summary": "ecm-brewer - Just made a nice cup of hot coffee"
+        "summary": "ecm-brewer - hi 👨 a nice cup of hot coffee"
       }
     }
   ]
